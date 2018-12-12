@@ -16,5 +16,12 @@
         "escapestudios/symfony2-coding-standard": "~2.0",
         "integralservice/behat-context": "^2.0",
         "squizlabs/php_codesniffer": "2.*"
-    }
+    },
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jurv/BehatContext"
+        }
+    ]
 }
